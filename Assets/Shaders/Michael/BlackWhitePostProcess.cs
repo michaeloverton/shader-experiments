@@ -5,7 +5,7 @@ using UnityEngine;
 public class BlackWhitePostProcess : MonoBehaviour {
     public Shader bwShader;
     public Color colorMultiply;
-    [Range(0, 1)]
+    [Range(0, 10)]
     public float tweaker = 1.0f;
     private Material bwMat;
     

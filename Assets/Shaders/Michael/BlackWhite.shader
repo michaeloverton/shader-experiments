@@ -2,7 +2,7 @@ Shader "Custom/BlackWhite" {
     Properties {
         _MainTex ("Texture", 2D) = "white" {}
         _Color ("Color Multiply", Color) = (1,1,1,1)
-        _Tweaker ("Tweaker", Range(0,1)) = 1
+        _Tweaker ("Tweaker", Range(0,10)) = 1
     }
 
     SubShader {
